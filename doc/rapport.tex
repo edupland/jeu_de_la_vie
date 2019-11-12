@@ -1,0 +1,75 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[export]{adjustbox}
+\usepackage{changepage}
+\usepackage{pdfpages}
+\usepackage[margin=1in]{geometry}
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{url}
+\usepackage{listings, lstautogobble}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[paper=portrait,pagesize]{typearea}
+\usepackage{gensymb}
+
+\hypersetup{
+    colorlinks=false,
+    linktoc=all,
+}
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+\setlist{noitemsep}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{
+	backgroundcolor=\color{white},
+	commentstyle=\color{mygreen},
+	escapeinside={\%*}{*)},
+	keywordstyle=\color{blue},
+	stringstyle=\color{mymauve},
+	autogobble=true,
+  	emptylines=1,
+  	breaklines=true
+}
+
+\title{Projet de Programmation Parallèle \\ 
+		\hfill \break Jeu de la vie}
+
+\author{Erwan \bsc{Dupland} \hspace*{1cm}
+	      Guillaume \bsc{Floret}}
+
+\date{}
+
+\begin{document}
+
+\begin{sffamily}
+
+\maketitle
+
+\renewcommand{\chaptername}{Partie}
+\renewcommand{\contentsname}{Sommaire}
+
+\tableofcontents
+
+
+\chapter{Introduction}
+
+
+\chapter{Machines utilisées}
+
+
+\end{sffamily}
+
+\end{document}
